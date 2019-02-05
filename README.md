@@ -1,2 +1,30 @@
 # COMP421_testcases
-test cases for Rice University's COMP 421 assignments
+Test cases for Rice University's COMP 421 assignments.
+
+
+## Lab 1 test cases
+
+1. Single Thread
+    a. Same terminal
+        i. ReadTerminal : test_1ai
+        ii. WriteTerminal : test_1aii
+        iii. R & W : test_1aiii
+    b. Different terminal
+        i. ReadTerminal : test_1bi
+        ii. WriteTerminal : test_1bii
+        iii. R & W : test_1biii
+2. Concurrent 
+    a. Same terminal
+        i. ReadTerminal : test_2ai
+        ii. WriteTerminal : test_2aii
+    b. Different terminal
+        i. ReadTerminal : test_2bi
+        ii. WriteTerminal : test_2bii
+3. Error cases (test_3)
+    a. WriteTerminal
+    b. ReadTerminal
+    c. InitTerminal
+    d. InitTerminalDriver
+    e. TerminalDriverStatistics
+4. Misc
+    a. testRead (from Piazza - kudos to Patrick)
